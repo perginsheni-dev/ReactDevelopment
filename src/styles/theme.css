@@ -1,0 +1,20 @@
+:root{
+  --bg: #ffffff;
+  --panel: #ffffff;
+  --muted: #6b7280;
+  --text: #0f172a;
+  --primary: #0078d4;
+  --accent: #646cff;
+  --success: #28a745;
+  --danger: #e11d48;
+  --radius: 10px;
+  --gap: 14px;
+  --shadow: 0 6px 20px rgba(20,20,20,0.04);
+}
+
+/* focus ring and accessible helpers */
+:root, *{box-sizing:border-box}
+
+.focus-ring:focus{outline:3px solid rgba(100,108,255,0.28);outline-offset:3px;border-radius:6px}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
